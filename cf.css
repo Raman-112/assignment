@@ -1,0 +1,337 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.navbar.navbar.navbar-expand-lg.bg-body-tertiary{
+    height: 105px;
+    padding-left: 140px;
+    z-index: 2;
+}
+.nav-link{
+    color: rgb(33, 5, 5);
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 25px;
+}
+.form-control.me-2{
+    border: 1px solid rgba(173, 47, 47, 0.786);
+}
+.btn.btn-outline-success{
+    border: 2px solid rgba(173, 47, 47, 0.786);
+    color:rgb(33, 5, 5);
+}
+.btn.btn-outline-success:hover{
+    background-color: rgba(0, 0, 0, 0.786);
+    color:rgb(255, 208, 0);
+   
+}
+@media only screen and (max-width: 992px) {
+
+    .navbar.navbar.navbar-expand-lg.bg-body-tertiary{
+        height: 0% !important; 
+        padding-left: 0% !important; 
+        z-index: 1; 
+    }
+    .dropdown-item{
+    color: rgba(173, 47, 47, 0.786) !important;
+        font-weight: 500 !important;   
+        border-radius: 3px !important;
+        font-size: medium !important;
+    }
+    .dropdown-item:hover{
+        background-color: black !important;
+        color: rgb(255, 208, 0) !important;
+    }
+
+    .imga{
+        display: block ;
+        margin-left: auto ;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 50% ;
+        border: 1px solid black;
+    }
+    
+    #qaz{
+        font-size: 11px;
+    }
+
+    #title1{
+        font-size: 28px !important;
+        font-weight: 300 !important;
+        border-bottom: 2px rgb(255, 200, 1) double !important;
+        border-top: 2px rgb(255, 200, 1) double !important;
+    }
+
+
+    
+}
+
+.dropdown-item{
+    color: rgb(33, 5, 5);
+    font-weight: 600;   
+ 
+}
+.dropdown-item:hover{
+    background-color: #fae1d9e9;;
+  color: rgba(173, 47, 47, 0.786) ;
+}
+
+.nav-link:hover{
+    text-decoration: rgba(173, 47, 47, 0.786) solid underline;
+    color: rgb(106, 11, 11);
+}
+
+.imga{
+    height: 100px;
+    width: 100px;
+    background-image: url(PORT.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50% ;
+    border: 1px solid black;
+}
+
+.navbar-toggler-icon:hover{
+    border-bottom: 3px solid rgba(173, 47, 47, 0.786);
+}
+.back{
+    max-width: 100%;
+    height: auto;
+    background-image: url();
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#title1{
+    text-align: center;
+    color: rgb(33, 5, 5);
+    background-color: #fae1d9e9;
+    font-size: 50px;
+    font-weight: 400;
+    font-family:fantasy;
+    border-bottom: 3px rgb(23, 20, 3) double;
+    border-top: 3px rgb(67, 58, 5) double;
+}
+.keep{
+    height: auto;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+}
+#cof{
+    height: 250px;
+    width: 250px;
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 500px;
+    border: 2px dashed goldenrod;
+}
+
+.ni0{
+    text-decoration: none;
+    color: rgb(33, 5, 5);
+    line-height: 0px;
+    font-weight: 600;
+}
+.ni0:hover{
+    text-decoration: rgba(173, 47, 47, 0.786) solid underline;
+    color: rgb(106, 11, 11);
+}
+.bolder{
+    text-decoration: underline;
+    margin-bottom: 15px;
+    color: rgb(33, 5, 5);
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.help{
+    color: white;
+    margin: 40px;
+    }
+    #qaz{
+        height: auto;
+        width: auto;
+        background-color: #fae1d9e9;
+        display: flex;
+        justify-content: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+#jin{
+    height: 60px;
+    width: auto;
+    background-color: #280d04ea;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ki{
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 20px;
+}
+.ki:hover{
+    color: rgba(255, 217, 0, 0.749);
+    text-decoration: underline;
+}
+
+.whitee{
+    height: 1px;
+    width: auto;
+    background-color: white;
+}
+
+#jin2{
+    height: auto;
+    width: auto;
+    background-color: #401506ea;
+    color: #fae1d9e9;
+    text-align: center;
+    font-size: medium;
+}
+
+
+.fol{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+#cd{
+    height: 40px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    border: 2px solid brown;
+    background-color: hsla(0, 100%, 50%, 0.673);
+    text-decoration: none;
+    color: #ffffff;
+
+}
+.ko{
+    height: 40px;
+    width: auto;
+    background-color: #f5e400;
+    display: flex;
+    justify-content: center;
+    border: 2px solid brown;
+
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+#contact-form {
+    max-width: 600px;
+    margin: auto;
+}
+
+#form-response {
+    font-size: 1.1em;
+    color: green;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+#contact-form {
+    max-width: 600px;
+    margin: auto;
+}
+
+#form-response {
+    font-size: 1.1em;
+    color: green;
+}
+
+
+.about-me {
+    margin-top: 20px;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-card {
+    flex: 1 1 calc(33% - 40px);
+    max-width: calc(33% - 40px);
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+}
+
+.project-card-content {
+    padding: 15px;
+    text-align: center;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.bb{
+    height: 50px;
+    width: auto;
+    background-color: #fae1d9e9;
+
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(33, 5, 5);
+    border-bottom: 2px rgb(255, 200, 1) double;
+    border-top: 2px rgb(255, 200, 1) double;
+}

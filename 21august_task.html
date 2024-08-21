@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="21august_task.css">
+<link rel="icon" type="image/x-icon" href="P.png">
+    <title>EMPOWER - Personal Portfolio Website</title>
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <div class="navbar-brand" ></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="imga"></div>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" class="op" aria-current="page" href="#" >Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact_form.html">Contact Form</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Research Papers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Resume</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Streams</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">IT(Information Technology)</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">AI(Artifical Inteligence)</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">ML/DL(Machine/Deep Learning)</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Software Development</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Full Stack Development</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Finance Management</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Business Ideas</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                </ul>
+              </li>
+
+            </ul>
+            <form class="d-flex" role="search">
+
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+</header>
+
+
+
+<body class="back">
+  <div id="title1"> EMPOWER - PERSONAL PORTFOLIO WEBSITE</div>
+  <div class="keep">
+  </div>
+  <main>
+    <section id="home" class="container text-center my-5">
+        <h1>Welcome to My Portfolio</h1>
+        <p>This is a showcase of my work and skills.</p>
+    </section>
+    <section id="about" class="container about-me my-5">
+        <h2>About Me</h2>
+        <p>I am Ramanjot Singh studying in Chitkara University in Btech CSE. I am highly ambitious to achieve my Goals with complete Dedication.
+        I am more interested in learning new things and exploring new technologies. I am a quick learner and always ready to take new challenges.
+        I am a team player and always ready to help others. I am a good listener and always ready to take feedback from others. I am a good problem solver and always ready to take new challenges.</p>
+    
+        </p>
+        <h2>My Projects</h2>
+        <div class="projects-container">
+
+            <div class="project-card">
+                <img src="https://png.pngtree.com/png-vector/20191129/ourmid/pngtree-office-checklist-icon-png-image_2047567.jpg" alt="Project 1">
+                <div class="project-card-content">
+                    <h4>Speed Detector Iot Based</h4>
+                    <p>Short description of Project 1.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://png.pngtree.com/png-vector/20191129/ourmid/pngtree-office-checklist-icon-png-image_2047567.jpg" alt="Project 2">
+                <div class="project-card-content">
+                    <h4>IoT Based Project</h4>
+                    <p>Short description of Project 2.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://png.pngtree.com/png-vector/20191129/ourmid/pngtree-office-checklist-icon-png-image_2047567.jpg" alt="Project 3">
+                <div class="project-card-content">
+                    <h4>Weather Monitoring System</h4>
+                    <p></p>
+                </div>
+            </div>
+
+            
+        </div>
+    </section>
+    <section id="contact" class="container my-5">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+        <div id="form-response" class="mt-3"></div>
+    </section>
+</main>
+  
+</body>
+<div class="keep23"></div>
+<footer id="qaz">
+  <div class="help">
+      <dl class="bolder">About Us</dl>
+      <dl></dl>
+      <dl><a class="ni0" href="#">Our Heritage</a></dl>
+      <dl><a class="ni0" href="#">Overview</a></dl>
+      <dl><a class="ni0" href="#">Members</a></dl>
+      <dl><a class="ni0" href="#">Our Company</a></dl>
+      <dl><a class="ni0" href="#">Leadership Team</a></dl>
+      <dl><a class="ni0" href="#">Mentors info</a></dl>
+      <dl><a class="ni0" href="#">Managers info</a></dl>
+      <dl><a class="ni0" href="#">News and Notifications</a></dl>
+      </div>
+  <div class="help">
+  <dl class="bolder">Responsibility</dl>
+  <dl></dl>
+  <dl><a class="ni0" href="#">Diversity</a></dl>
+  <dl><a class="ni0" href="#">Community</a></dl>
+  <dl><a class="ni0" href="#">Ethical Sourcing</a></dl>
+  <dl><a class="ni0" href="#">Environment Impact</a></dl>
+  <dl><a class="ni0" href="#">Scholarships for students</a></dl>
+  <dl><a class="ni0" href="#">Donations and Charities</a></dl>
+  <dl><a class="ni0" href="#">Empower's Offices</a></dl>
+  <dl><a class="ni0" href="#">Empowering Future Generation</a></dl>
+  <dl><a class="ni0" href="#">Empower's International</a></dl>
+  <dl><a class="ni0" href="#">Advertisements</a></dl>
+  <dl><a class="ni0" href="#">Learn More</a></dl>
+  </div>
+
+  <div class="help">
+    <dl class="bolder">Quick Links</dl>
+    <dl></dl>
+    <dl><a class="ni0" href="#">Privacy Policy</a></dl>
+    <dl><a class="ni0" href="#">FAQs</a></dl>
+    <dl><a class="ni0" href="#">Customer Service</a></dl>
+    <dl><a class="ni0" href="#">Empower's India Mobile App</a></dl>
+    <dl><a class="ni0" href="#">Mentor email address</a></dl>
+    <dl><a class="ni0" href="#">Subscription</a></dl>
+    <dl><a class="ni0" href="#">Offers & Discounts</a></dl>
+    <dl><a class="ni0" href="#">Terms os Use</a></dl>
+    </div>
+  
+  <div class="help">
+  <dl class="bolder">Connect With Us</dl>
+  <dl></dl>
+  <dl><a class="ni0" href="#">Instragram</a></dl>
+  <dl><a class="ni0" href="#">Facebook</a></dl>
+  <dl><a class="ni0" href="#">Youtube</a></dl>
+  <dl><a class="ni0" href="#">Twitter</a></dl>
+  <dl><a class="ni0" href="#">Telegram</a></dl>
+  <dl><a class="ni0" href="#">Linkdin</a></dl>
+  <dl><a class="ni0" href="#">Threads</a></dl>
+  <dl><a class="ni0" href="#">Reddit</a></dl>
+  </div>
+</footer>
+<div class="whitee"></div>
+<footer>
+<div id="jin">
+  <dl><a class="ki" href="#">Web Accessibility</a></dl>
+
+    <dl><a class="ki"  href="#">Privacy Statement</a></dl>
+ 
+    <dl><a  class="ki" href="#">Terms of Use</a></dl>
+
+    <dl><a  class="ki" href="contactme.html">Contact us</a></dl>
+</div>
+</footer>
+<div class="whitee"></div>
+<footer id="jin2">
+  Made with  &hearts;  by EMPOWER- Personal PortFolio Website<br>
+  &#169; EMPOWER'S - Personal PortFolio 2024, Empower.com, Affiliates copyright of Roll No: 2310992347, G-18(B)
+  </footer>
+  <script>
+    const form = document.getElementById('contact-form');
+    const formResponse = document.getElementById('form-response');
+    
+    form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        formResponse.innerHTML = 'Sending...';
+    
+        const formData = new FormData(form);
+        const response = await fetch('https://formspree.io/f/xnqlzqzq', {
+            method: 'POST',
+            body: formData,
+            headers: {
+                'Accept': 'application/json'
+            }
+        });
+    
+        if (response.ok) {
+            form.reset();
+            formResponse.innerHTML = 'Thanks for your message! I will get back to you soon.';
+        } else {
+            formResponse.innerHTML = 'Something went wrong. Please try again.';
+        }
+    });
+  </script>
+</html>
